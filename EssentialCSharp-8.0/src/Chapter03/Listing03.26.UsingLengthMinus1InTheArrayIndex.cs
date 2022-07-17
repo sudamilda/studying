@@ -8,7 +8,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_26
         {
             string[] languages = new string[9];
             // ...
-            languages[4] = languages[languages.Length - 1];
+            languages[4] = languages[languages.Length - 1]; // 배열 길이 나타냄 length
         }
     }
 }
