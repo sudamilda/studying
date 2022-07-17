@@ -35,3 +35,11 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_32
         }
     }
 }
+
+// 배열 사용 가능 기능
+/*
+sort: 정렬하기
+BinarySearch: 검색(이진탐색)
+reverse: 뒤집기
+clear: 지우기
+*/
