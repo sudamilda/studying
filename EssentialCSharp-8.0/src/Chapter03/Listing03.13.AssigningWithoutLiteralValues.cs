@@ -8,3 +8,5 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_13
         }
     }
 }
+
+// 미리 할당하고 나중에 초기화

@@ -10,3 +10,5 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_09
         }
     }
 }
+
+// 초기 선언(초기화)

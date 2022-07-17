@@ -11,3 +11,5 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_10
         }
     }
 }
+
+// 나눠서 선언하기
