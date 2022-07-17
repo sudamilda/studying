@@ -9,3 +9,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter02.Listing02_20
         }
     }
 }
+
+// 캐스팅: 형변환
+
+// long 을 int로 변경

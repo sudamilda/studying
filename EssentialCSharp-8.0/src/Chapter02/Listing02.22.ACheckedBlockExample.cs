@@ -14,3 +14,6 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter02.Listing02_22
         }
     }
 }
+
+// checked 블록: 값이 오버플로 할당이 발생한 경우 예외처리
+// unchecked 그냥 출력

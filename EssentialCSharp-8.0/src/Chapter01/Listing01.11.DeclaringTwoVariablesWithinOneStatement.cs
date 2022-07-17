@@ -4,6 +4,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter01.Listing01_11
     {
         public static void Main()
         {
+                // 동시 변수 선언 가능
             string message1, message2;
 
             message1 = "My name is Inigo Montoya.";;

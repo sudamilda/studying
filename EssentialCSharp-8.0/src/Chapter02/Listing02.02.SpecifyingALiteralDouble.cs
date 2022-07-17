@@ -4,7 +4,8 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter02.Listing02_02
     {
         public static void Main()
         {
-            System.Console.WriteLine(1.618033988749895);
+            // double 형식 _ 결과는 크기가 너무 커서 뒷부분이 잘림
+            System.Console.WriteLine(1.61803398874989511111);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter02.Listing02_16
 
             System.Console.WriteLine(
                 $"The palindrome \"{palindrome}\" is"
-                + $" {palindrome.Length} characters.");
+                + $" {palindrome.Length} characters."); //Length string이 몇 글자인지 출력
         }
     }
 }

@@ -10,4 +10,4 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter02.Listing02_21
             System.Console.WriteLine(n);
         }
     }
-}
+}// -2147483648 출력 오버플로우
