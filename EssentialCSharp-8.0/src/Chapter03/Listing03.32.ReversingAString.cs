@@ -11,14 +11,14 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Listing03_32
             palindrome = System.Console.ReadLine();
 
             // Remove spaces and convert to lowercase
-            reverse = palindrome.Replace(" ", "");
-            reverse = reverse.ToLower();
+            reverse = palindrome.Replace(" ", ""); // 띄어쓰기 없앴음
+            reverse = reverse.ToLower(); // 싹 다 소문자로
 
             // Convert to an array
-            temp = reverse.ToCharArray();
+            temp = reverse.ToCharArray(); // 형 변환 
 
             // Reverse the array
-            System.Array.Reverse(temp);
+            System.Array.Reverse(temp); //dllow 이렇게 뒤집어짐
 
             // Convert the array back to a string and
             // check if reverse string is the same
