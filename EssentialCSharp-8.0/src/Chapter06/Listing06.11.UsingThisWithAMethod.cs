@@ -35,3 +35,4 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_11
         }
     }
 }
+// public, private, protected 상속 받는 값만 갖고올 수 있음, internal

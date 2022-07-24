@@ -14,7 +14,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_35
                 // ...
 
                 // Switch players
-                currentPlayer = (currentPlayer == 2) ? 1 : 2;
+                currentPlayer = (currentPlayer == 2) ? 1 : 2; // 조건 연산자 true1 false2
             }
         }
     }

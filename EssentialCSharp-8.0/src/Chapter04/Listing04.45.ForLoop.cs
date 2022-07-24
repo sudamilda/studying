@@ -22,6 +22,26 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_45
                 // Shift mask one location over to the right
                 mask >>= 1;
             }
+
+            string s1 = "";
+            string s2 = "";
+            
+            System.Console.Write("input string: ");
+            s1 = System.Console.ReadLine();
+
+            System.Console.Write("input string: ");
+            s2 = System.Console.ReadLine();
+
+            int limitNumber = int.Parse(s1);
+            for(int i = 0; i<limitNumber; i++)
+            {
+                System.Console.WriteLine(s2);
+
+                if(i==4)
+                {
+                    System.Console.WriteLine("5");
+                }
+            }
         }
     }
 }

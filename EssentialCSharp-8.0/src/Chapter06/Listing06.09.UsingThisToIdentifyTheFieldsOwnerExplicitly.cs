@@ -18,7 +18,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_09
         public void SetName(
             string newFirstName, string newLastName)
         {
-            this.FirstName = newFirstName;
+            this.FirstName = newFirstName; // this 내가 쓰는 firstname을 firstname으로 지정
             this.LastName = newLastName;
         }
     }

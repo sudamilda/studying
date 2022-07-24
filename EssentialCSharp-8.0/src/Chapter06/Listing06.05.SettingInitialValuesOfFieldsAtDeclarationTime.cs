@@ -7,6 +7,6 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_05
     {
         public string FirstName;
         public string LastName;
-        public string? Salary = "Not enough";
+        public string? Salary = "Not enough"; // null 가능 함수
     }
 }

@@ -10,7 +10,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_07
         public string LastName;
         public string? Salary;
 
-        public string GetName()
+        public string GetName() // ÇÔ¼ö¶ó¼­ () ¾¸
         {
             return $"{ FirstName }  { LastName }";
         }

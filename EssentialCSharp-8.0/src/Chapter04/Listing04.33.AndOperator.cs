@@ -6,7 +6,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_33
         {
             int hourOfTheDay = int.Parse(args[0]);
 
-            if ((10 < hourOfTheDay) && (hourOfTheDay < 24))
+            if ((10 < hourOfTheDay) && (hourOfTheDay < 24)) // &&ดย and 
                 System.Console.WriteLine(
                     "Hi-Ho, Hi-Ho, it's off to work we go.");
         }

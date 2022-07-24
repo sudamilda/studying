@@ -18,6 +18,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_20
                 // The user selected to play the computer
                 System.Console.WriteLine(
                     "Play against computer selected.");
+
             else
                 // Default to 2 players (even if user didn't enter 2)
                 System.Console.WriteLine(

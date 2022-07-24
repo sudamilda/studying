@@ -16,3 +16,12 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_25
         }
     }
 }
+
+/*
+ < 보다 작음
+> 보다 큼
+<= 작거나 같음
+>= 크거나 같음
+== 같음 연산자
+!= 같지 않음 연산자
+ */

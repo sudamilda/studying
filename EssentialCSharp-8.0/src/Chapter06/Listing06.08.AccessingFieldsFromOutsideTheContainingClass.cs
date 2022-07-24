@@ -11,7 +11,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_08
     {
         public static void Main()
         {
-            Employee employee1 = new Employee();
+            Employee employee1 = new Employee(); // 새로 할당해줘서 인스턴스화
             Employee employee2;
             employee2 = new Employee();
 

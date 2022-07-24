@@ -9,7 +9,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_44
             // Repeatedly request player to move until he
             // enters a valid position on the board
             bool valid;
-            do
+            do // 한 번은 실행됨
             {
                 valid = false;
 
@@ -21,7 +21,16 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_44
                 // Check the current player's input
                 // ...
 
-            } while(!valid);
+            } while(!valid); 
         }
     }
 }
+/*
+ for (int = 0; i<count; i++)
+{
+}
+ 
+for(초기;조건;루프) 
+ 
+ */
+

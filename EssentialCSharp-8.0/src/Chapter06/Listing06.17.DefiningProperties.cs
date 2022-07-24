@@ -15,26 +15,35 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter06.Listing06_17
             employee.FirstName = "Inigo";
 
             // Call the FirstName property's getter
-            System.Console.WriteLine(employee.FirstName);
+            System.Console.WriteLine(employee.FirstName); // 값을 가져올 때 get 호출
+
+            tree myTree = new tree();
+            myTree.name = "소나무"; // 함수는 전역변수 느낌, class는 지역변수 느낌
         }
     }
 
     class Employee
     {
-        // FirstName property
+        // FirstName property(자산)
         public string FirstName
         {
-            get
+            get // 반환되는 값을 지정
             {
                 return _FirstName;
             }
-            set
+            set // 저장하는 것 위치가 바뀐 순간 내부에서 함수 호출
             {
                 _FirstName = value;
             }
         }
+        // get, set, value 고정
 
-        private string _FirstName;
+        private string _FirstName; // 값은 여기에 저장됨
 
+    }
+
+    class tree
+    {
+        public string name;  
     }
 }

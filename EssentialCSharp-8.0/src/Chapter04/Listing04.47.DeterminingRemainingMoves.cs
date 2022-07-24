@@ -27,6 +27,15 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_47
                     System.Console.Write($"{ cell } ");
                 }
             }
+
+            int[] intArray = { 1,2,3,4,5,6,7,8};
+            foreach(int number in intArray)
+            {
+                System.Console.WriteLine(number + 3);
+            }
         }
     }
 }
+
+// foreach
+// 변수명과 사용 할 배열을 

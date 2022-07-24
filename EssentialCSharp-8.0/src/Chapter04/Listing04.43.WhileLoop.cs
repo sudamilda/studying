@@ -12,7 +12,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_43
             System.Console.Write("Enter a positive integer:");
 
             // decimal.Parse convert the ReadLine to a decimal
-            input = decimal.Parse(System.Console.ReadLine());
+            input = decimal.Parse(System.Console.ReadLine()); // 9 넣으면
 
             // Initialize current and previous to 1, the first
             // two numbers in the Fibonacci series
@@ -20,7 +20,7 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_43
 
             // While the current Fibonacci number in the series is
             // less than the value input by the user
-            while (current <= input)
+            while (current <= input) // true라 진행
             {
                 temp = current;
                 current = previous + current;
@@ -33,3 +33,10 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter04.Listing04_43
         }
     }
 }
+/*
+ while 문
+계속 반복하니까 아래 값을 바꿔줘야함
+
+do while문
+일단 하고 while문 접해짐
+ */
