@@ -32,3 +32,5 @@
         public Angle Latitude { get; set; }
     }
 }
+
+// 구조체 struct: class 유사 유니티 X 
