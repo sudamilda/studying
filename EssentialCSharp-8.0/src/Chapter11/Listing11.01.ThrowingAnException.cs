@@ -41,3 +41,22 @@
         }
     }
 }
+
+// 리스트 딕셔너리 큐 스택
+/*
+ 리스트
+List<string> list = new List<string>
+{"","","",""}
+
+딕셔너리 key, value
+Dictionary <string, string> dic = new Dictionary<string, string>
+{
+    ["hi"] = "hello";
+}
+dic[hi]값 가져와 변경 가능
+
+스레드
+Task
+Task.Run
+ 
+ */
